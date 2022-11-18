@@ -2,7 +2,7 @@
 Coded with <3 using ReactJs and NodeJs.
 
 <h1>Instructions:</h1>
-<div style:{text-align: "center"}>
+<div style="text-align: center;"}>
 <ul>
 <li>Set your terminal current directory in server folder</li>
 <li>Start node server by using the command: npm start</li>
