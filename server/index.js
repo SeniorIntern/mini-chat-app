@@ -8,6 +8,7 @@ app.use(cors())
 // use variable io to establish the connection
 const server = http.createServer(app)
 
+// allows a server to indicate any origins. avoid problems later on
 const io = new Server(server, {
     cors: {
         origin: 'http://localhost:3000',

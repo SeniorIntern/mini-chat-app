@@ -11,7 +11,7 @@ export default function App() {
     const [room, setRoom] = useState('')
     const [showChat, setShowChat] = useState(false)
 
-    // form validation(disallow empty value) then permit to join
+    // form validation (disallow empty value) when join room
     const joinRoom = () => {
         if (username !== '' && room !== '') {
             socket.emit('join_room', room)

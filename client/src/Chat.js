@@ -4,7 +4,7 @@ import './App.css'
 
 export default function Chat({ socket, username, room }) {
     const [currentMessage, setCurrentMessage] = useState('')
-    // store messages in a state
+    // store user messages in an array
     const [messageList, setMessageList] = useState([])
 
     // use aync to make this function aynchronous. Wait for the message to be sent before updating "currentMessage"
